@@ -159,7 +159,7 @@ must be given as string."""
                            control_parameters.seed())
 
         # Construct the C++ lattice model.
-        prettyPrint(" KMCLib: setting up the backend C++ object.")
+#        prettyPrint(" KMCLib: setting up the backend C++ object.")
 
         cpp_model = self._backend()
 
@@ -201,7 +201,7 @@ must be given as string."""
         n_analyse = control_parameters.analysisInterval()
         dump_time = control_parameters.dumpTimeInterval()
 
-        prettyPrint(" KMCLib: Runing for %i steps, starting from time: %f\n"%(n_steps, self.__cpp_timer.simulationTime()))
+#        prettyPrint(" KMCLib: Runing for %i steps, starting from time: %f\n"%(n_steps, self.__cpp_timer.simulationTime()))
 
         # Run the KMC simulation.
         try:
