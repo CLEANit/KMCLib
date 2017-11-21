@@ -121,8 +121,8 @@ must be an instance of type KMCControlParameters."""
         use_trajectory = True
         if trajectory_filename is None:
             use_trajectory = False
-            msg =""" KMCLib: WARNING: No trajectory filename given -> no trajectory will be saved."""
-            prettyPrint(msg)
+#            msg =""" KMCLib: WARNING: No trajectory filename given -> no trajectory will be saved."""
+#            prettyPrint(msg)
 
         elif not isinstance(trajectory_filename, str):
             msg = """
